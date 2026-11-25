@@ -14,12 +14,12 @@ export class Property
 
     async dropdownSelect()
     {
-        this.PropertyFordd.selectOption({index:1})
+       await this.PropertyFordd.selectOption({index:1})
     }
 
     async enterValue()
     {
-        this.PropertyLbl.fill("Test Space")
+        await this.PropertyLbl.fill("Test Space")
     }
 
 }
